@@ -1,1 +1,1 @@
-Google for myfirend Camp :)
+Google Map Example for myfirend Camp :)
