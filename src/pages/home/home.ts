@@ -1,5 +1,6 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { Data } from './data';
 
 declare var google: any;
 
@@ -24,7 +25,8 @@ export class HomePage {
   }]
   @ViewChild('mapCanvas') mapElement: ElementRef;
   constructor(public navCtrl: NavController) {
-
+     // Data import 
+    console.log(Data);
   }
 
   ionViewDidLoad() {
